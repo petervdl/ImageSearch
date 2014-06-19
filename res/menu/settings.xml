@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+        <item android:id="@+id/action_filter"
+          android:icon="@drawable/ic_action_filter"
+          android:showAsAction="ifRoom|withText"
+          android:onClick="doFiltersAction"
+          android:title="@string/action_filter"/>
+        
+        <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:showAsAction="ifRoom|withText"
+          android:onClick="doSearchAction"
+          android:title="@string/action_search"/>
+        
+</menu>

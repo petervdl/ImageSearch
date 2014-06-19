@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+	android:layout_height="match_parent" tools:context="${packageName}.${activityClass}">
+
+	<ImageView android:layout_width="match_parent"
+		android:layout_height="match_parent" android:contentDescription="@string/content_description"
+		android:background="#f6e7c3" android:scaleType="centerCrop" />
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/et_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:hint="@string/query_hint"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <!--  Button
+        android:id="@+id/bt_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="14dp"
+        android:onClick="onImageSearchBtn"
+        android:text="@string/bt_search" / -->
+
+    <GridView
+        android:id="@+id/gv_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/et_query"
+        android:layout_marginLeft="10dp"
+        android:numColumns="4" >
+    </GridView>
+
+</RelativeLayout>
+</FrameLayout>

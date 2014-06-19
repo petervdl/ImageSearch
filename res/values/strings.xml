@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageSearch</string>
+    <string name="query_hint">Enter search term</string>
+    <string name="bt_search">Search</string>
+    <string name="title_activity_image_display">ImageDisplayActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_filter">filters</string>
+    <string name="action_search">search</string>
+    <string name="title_activity_set_filters">SetFiltersActivity</string>
+    <string name="save">Save</string>
+    <string name="filters">Search Filters</string>
+    <string name="imagesize">Image size:</string>
+    <string name="color">Color:</string>
+    <string name="imagetype">Image type:</string>
+    <string name="site">Site filter:</string>
+    <string name="content_description">feature not implemented</string>
+    <string name="mailtome">mail image</string>
+    
+    <string-array name="colors">
+        <item>choose color</item>
+        <item>black</item>
+        <item>blue</item>
+        <item>brown</item>
+        <item>gray </item>
+        <item>green</item>
+        <item>orange</item>
+        <item>pink</item>
+        <item>purple</item>
+        <item>red</item>
+        <item>teal</item>
+        <item>white</item>
+        <item>yellow</item>
+    </string-array>
+    
+    <string-array name="imagetype">
+        <item>choose image type</item>
+        <item>face</item> 
+        <item>photo</item>
+        <item>clipart</item>
+        <item>lineart</item>
+    </string-array>
+    
+</resources>
